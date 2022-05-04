@@ -14,6 +14,7 @@
 		5DDFC0B828231DDA00BDC95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B728231DDA00BDC95C /* Assets.xcassets */; };
 		5DDFC0BB28231DDA00BDC95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */; };
 		5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0C2282322BC00BDC95C /* DataManager.swift */; };
+		5DDFC0C52823254900BDC95C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0C42823254900BDC95C /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5DDFC0BA28231DDA00BDC95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DDFC0BC28231DDA00BDC95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DDFC0C2282322BC00BDC95C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5DDFC0C42823254900BDC95C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
 				5DDFC0B228231DDA00BDC95C /* ListOfPeopleViewController.swift */,
 				5DDFC0B428231DDA00BDC95C /* Main.storyboard */,
+				5DDFC0C42823254900BDC95C /* Person.swift */,
 				5DDFC0B728231DDA00BDC95C /* Assets.xcassets */,
 				5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */,
 				5DDFC0BC28231DDA00BDC95C /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
 				5DDFC0B328231DDA00BDC95C /* ListOfPeopleViewController.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,
