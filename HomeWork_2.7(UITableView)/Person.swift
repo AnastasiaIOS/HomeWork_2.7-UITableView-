@@ -12,4 +12,5 @@ struct Person {
     let email: String
 }
 
-static 
+
+
