@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */; };
 		5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */; };
 		5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */; };
-		5DDFC0B328231DDA00BDC95C /* ListOfPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B228231DDA00BDC95C /* ListOfPeopleViewController.swift */; };
 		5DDFC0B628231DDA00BDC95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B428231DDA00BDC95C /* Main.storyboard */; };
 		5DDFC0B828231DDA00BDC95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B728231DDA00BDC95C /* Assets.xcassets */; };
 		5DDFC0BB28231DDA00BDC95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		5DDFC0AB28231DDA00BDC95C /* HomeWork_2.7(UITableView).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork_2.7(UITableView).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DDFC0B228231DDA00BDC95C /* ListOfPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfPeopleViewController.swift; sourceTree = "<group>"; };
 		5DDFC0B528231DDA00BDC95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DDFC0B728231DDA00BDC95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DDFC0BA28231DDA00BDC95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -41,6 +41,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D603FF7283C3AF50082C459 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		5D603FF8283C3B040082C459 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
+				5DDFC0C42823254900BDC95C /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5D603FF9283C3B1E0082C459 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFC0B428231DDA00BDC95C /* Main.storyboard */,
+				5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		5D603FFA283C3B280082C459 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFC0BC28231DDA00BDC95C /* Info.plist */,
+				5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */,
+				5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5D603FFB283C3B470082C459 /* Resours */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFC0B728231DDA00BDC95C /* Assets.xcassets */,
+			);
+			path = Resours;
+			sourceTree = "<group>";
+		};
 		5DDFC0A228231DDA00BDC95C = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +104,11 @@
 		5DDFC0AD28231DDA00BDC95C /* HomeWork_2.7(UITableView) */ = {
 			isa = PBXGroup;
 			children = (
-				5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */,
-				5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */,
-				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
-				5DDFC0B228231DDA00BDC95C /* ListOfPeopleViewController.swift */,
-				5DDFC0B428231DDA00BDC95C /* Main.storyboard */,
-				5DDFC0C42823254900BDC95C /* Person.swift */,
-				5DDFC0B728231DDA00BDC95C /* Assets.xcassets */,
-				5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */,
-				5DDFC0BC28231DDA00BDC95C /* Info.plist */,
+				5D603FF9283C3B1E0082C459 /* Storyboard */,
+				5D603FF8283C3B040082C459 /* Models */,
+				5D603FF7283C3AF50082C459 /* VC */,
+				5D603FFB283C3B470082C459 /* Resours */,
+				5D603FFA283C3B280082C459 /* App */,
 			);
 			path = "HomeWork_2.7(UITableView)";
 			sourceTree = "<group>";
@@ -145,7 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
-				5DDFC0B328231DDA00BDC95C /* ListOfPeopleViewController.swift in Sources */,
+				5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,
 				5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */,
@@ -298,7 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork_2.7(UITableView)/Info.plist";
+				INFOPLIST_FILE = "HomeWork_2.7(UITableView)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -326,7 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "HomeWork_2.7(UITableView)/Info.plist";
+				INFOPLIST_FILE = "HomeWork_2.7(UITableView)/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

@@ -10,6 +10,10 @@ struct Person {
     let surname: String
     let phone: String
     let email: String
+    
+    var title: String {
+        "\(name) \(surname)"
+    }
 }
 
 
