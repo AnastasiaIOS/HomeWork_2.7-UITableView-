@@ -8,13 +8,25 @@
 struct Person {
     let name: String
     let surname: String
-    let phone: String
-    let email: String
     
     var title: String {
         "\(name) \(surname)"
     }
+    
+    static func getPerson() -> Person {
+        Person
+
+    }
 }
 
 
+struct Contacts {
+    let phone: String
+    let email: String
+    
+    static func getContacts() -> Contacts {
+        Contacts(phone: ,
+                 email: )
 
+    }
+}
