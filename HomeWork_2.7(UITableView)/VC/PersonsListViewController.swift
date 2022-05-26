@@ -22,13 +22,14 @@ class PersonsListViewController: UITableViewController {
    
     // метод, задающий кол-во ячеек в списке 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        personsList.count
+        personsList.count // кол-во строк в таблице
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personID", for: indexPath)
-
+        
+        // настраиваем контент ячейки
    
 
         return cell
