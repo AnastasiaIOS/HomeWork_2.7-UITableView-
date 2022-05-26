@@ -10,7 +10,7 @@ import UIKit
 class PersonsListViewController: UITableViewController {
     
     
-    private var personsList = Person.getPerson() //создаем экземпляр модели
+    private var personsList = Person.getPerson() //создаем массив
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,6 +30,9 @@ class PersonsListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personID", for: indexPath)
         
         // настраиваем контент ячейки
+        var content = cell.defaultContentConfiguration()
+        
+        content.text = personsList[indexPath.
    
 
         return cell

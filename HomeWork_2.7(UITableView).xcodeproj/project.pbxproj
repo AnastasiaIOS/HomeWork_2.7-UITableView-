@@ -53,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
-				5DDFC0C42823254900BDC95C /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -85,6 +84,14 @@
 			path = Resours;
 			sourceTree = "<group>";
 		};
+		5DB592B72840354E0042D846 /* ServiceFile */ = {
+			isa = PBXGroup;
+			children = (
+				5DDFC0C42823254900BDC95C /* Person.swift */,
+			);
+			path = ServiceFile;
+			sourceTree = "<group>";
+		};
 		5DDFC0A228231DDA00BDC95C = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +111,7 @@
 		5DDFC0AD28231DDA00BDC95C /* HomeWork_2.7(UITableView) */ = {
 			isa = PBXGroup;
 			children = (
+				5DB592B72840354E0042D846 /* ServiceFile */,
 				5D603FF9283C3B1E0082C459 /* Storyboard */,
 				5D603FF8283C3B040082C459 /* Models */,
 				5D603FF7283C3AF50082C459 /* VC */,
