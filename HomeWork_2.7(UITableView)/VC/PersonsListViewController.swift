@@ -8,6 +8,9 @@
 import UIKit
 
 class PersonsListViewController: UITableViewController {
+    
+    
+    private var personsList = Person.getPerson() //создаем экземпляр модели
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +22,7 @@ class PersonsListViewController: UITableViewController {
    
     // метод, задающий кол-во ячеек в списке 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        personsList.count
     }
 
     

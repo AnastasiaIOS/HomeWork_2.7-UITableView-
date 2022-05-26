@@ -15,14 +15,14 @@ struct Person {
     
     static func getPerson() -> [Person] {
         
+        
        [
         Person(name: groupMassive.names.randomElement() ?? "",
                surname: groupMassive.surnames.randomElement() ?? "")
        ]
-               
-        
     }
 }
+
 
 
 struct Contacts {
