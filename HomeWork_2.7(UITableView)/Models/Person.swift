@@ -22,13 +22,29 @@ extension Person {
         var massiveOfPersons: [Person] = []
         
         for _ in 1...numberOfPersons {
-            massiveOfPersons.append (Person(name: groupMassive.names.randomElement() ?? "",
-                                            surname: groupMassive.surnames.randomElement() ?? "",
-                                            phone: groupMassive.phones.randomElement() ?? "",
-                                            email: groupMassive.emails.randomElement() ?? ""))
+            var person = Person(name: groupMassive.names.randomElement() ?? "",
+                                surname: groupMassive.surnames.randomElement() ?? "",
+                                phone: groupMassive.phones.randomElement() ?? "",
+                                email: groupMassive.emails.randomElement() ?? "")
+            
+            massiveOfPersons.append (person)
                                      
         }
         return massiveOfPersons
+    }
+    
+    func bla(persons: [Person])->Person{
+        Person(
+            name : randomString(list: <#T##[String]#>, string: <#T##String#>))
+    }
+    
+    func randomString(list:[String]) ->String{
+        var isRandom = false
+        var result: list.randomElement()
+        while isRandom == true {
+            isRandom = list.contains(string)
+        }
+        return result
     }
 }
                                      

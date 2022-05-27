@@ -56,21 +56,64 @@
             </objects>
             <point key="canvasLocation" x="-3750" y="-1336"/>
         </scene>
-        <!--View Controller-->
+        <!--Details Of Contacts View Controller-->
         <scene sceneID="PcS-M2-Odr">
             <objects>
-                <viewController id="eJK-Rl-amc" sceneMemberID="viewController">
+                <viewController id="eJK-Rl-amc" customClass="DetailsOfContactsViewController" customModule="HomeWork_2_7_UITableView_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hio-hg-G6m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="gnd-3k-kkv">
+                                <rect key="frame" x="42" y="158" width="328" height="91.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kci-Pz-IyJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="328" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="328" id="yQB-aa-6cc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eh7-DF-yoz">
+                                        <rect key="frame" x="0.0" y="35.5" width="328" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="328" id="n9q-5I-H5s"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmv-Mx-bFJ">
+                                        <rect key="frame" x="0.0" y="71" width="328" height="20.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="328" id="Z4p-V5-WPU"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="zmv-Mx-bFJ" firstAttribute="leading" secondItem="gnd-3k-kkv" secondAttribute="leading" id="4tc-Id-JX0"/>
+                                    <constraint firstAttribute="trailing" secondItem="zmv-Mx-bFJ" secondAttribute="trailing" id="mP5-LK-E50"/>
+                                    <constraint firstItem="zmv-Mx-bFJ" firstAttribute="top" secondItem="Eh7-DF-yoz" secondAttribute="bottom" constant="15" id="oBC-YY-2xo"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="g34-Da-W64"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gnd-3k-kkv" firstAttribute="leading" secondItem="g34-Da-W64" secondAttribute="leading" constant="42" id="Jk9-cQ-qpd"/>
+                            <constraint firstItem="gnd-3k-kkv" firstAttribute="top" secondItem="g34-Da-W64" secondAttribute="top" constant="18" id="ma1-tL-aK9"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0hO-Se-kxt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdR-n2-311" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1984" y="-1337"/>
+            <point key="canvasLocation" x="-1984.057971014493" y="-1337.2767857142856"/>
         </scene>
     </scenes>
     <resources>

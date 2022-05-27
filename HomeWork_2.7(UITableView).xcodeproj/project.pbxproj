@@ -47,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */,
+				5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -63,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				5DDFC0B428231DDA00BDC95C /* Main.storyboard */,
-				5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */,
 				5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
