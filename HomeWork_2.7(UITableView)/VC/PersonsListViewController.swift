@@ -43,6 +43,14 @@ class PersonsListViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        guard let detailsVC = segue.destination as? DetailsOfContactsViewController else {return} // созд. экз. вьюконтроллера
+        //обращаемся к супервью и запрашеваем индекс по которому тапает пользак
+        guard let indexPath = tableView.indexPathForSelectedRow else {return}
+        // извлекаем нужную модель из массива
+        let person = personsList[indexPath.row]
+        // передаем экземпляр на второй экран
+        detailsVC.person = person
+        
     }
     
 

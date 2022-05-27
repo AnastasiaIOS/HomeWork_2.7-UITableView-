@@ -13,9 +13,15 @@ class DetailsOfContactsViewController: UIViewController {
     @IBOutlet var emailOfPerson: UILabel!
     @IBOutlet var phoneOfPerson: UILabel!
     
+    var person: Person! //экземпляр модели
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        fullnamePersonLabel.text = person.title
+        emailOfPerson.text = person.email
+        phoneOfPerson.text = person.phone
 
     }
     
