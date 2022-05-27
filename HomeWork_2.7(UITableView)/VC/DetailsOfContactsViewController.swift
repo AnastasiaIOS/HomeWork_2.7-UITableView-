@@ -8,7 +8,12 @@
 import UIKit
 
 class DetailsOfContactsViewController: UIViewController {
-
+    
+    @IBOutlet var fullnamePersonLabel: UILabel!
+    @IBOutlet var emailOfPerson: UILabel!
+    @IBOutlet var phoneOfPerson: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
