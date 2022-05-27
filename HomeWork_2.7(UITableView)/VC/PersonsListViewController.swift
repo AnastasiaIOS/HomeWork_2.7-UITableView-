@@ -28,11 +28,10 @@ class PersonsListViewController: UITableViewController {
         
         // настраиваем контент ячейки
         var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
-        let person = personsList[indexPath.row] // экземпляр модели по соответств.индексу
-        
+        let person = personsList[indexPath.row] // созд экземпляр модели по соответств.индексу
         content.text = person.title
    
-
+        cell.contentConfiguration = content
         return cell
     }
     

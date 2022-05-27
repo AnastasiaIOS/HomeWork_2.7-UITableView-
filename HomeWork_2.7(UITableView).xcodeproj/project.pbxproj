@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA9293528417D4100E574E2 /* DetailsOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */; };
 		5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */; };
 		5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */; };
 		5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfContactsViewController.swift; sourceTree = "<group>"; };
 		5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		5DDFC0AB28231DDA00BDC95C /* HomeWork_2.7(UITableView).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork_2.7(UITableView).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				5DDFC0B428231DDA00BDC95C /* Main.storyboard */,
+				5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */,
 				5DDFC0B928231DDA00BDC95C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
@@ -195,6 +198,7 @@
 				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
 				5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
+				5DA9293528417D4100E574E2 /* DetailsOfContactsViewController.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,
 				5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */,
 			);
