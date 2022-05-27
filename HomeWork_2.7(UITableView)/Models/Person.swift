@@ -32,7 +32,9 @@ extension Person {
         }
         return massiveOfPersons
     }
+}
     
+    /*
     func bla(persons: [Person])->Person{
         Person(
             name : randomString(list: <#T##[String]#>, string: <#T##String#>))
@@ -47,6 +49,7 @@ extension Person {
         return result
     }
 }
+     */
                                      
                                      
                                      

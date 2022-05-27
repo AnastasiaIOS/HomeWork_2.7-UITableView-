@@ -20,8 +20,8 @@ class DetailsOfContactsViewController: UIViewController {
         super.viewDidLoad()
         
         fullnamePersonLabel.text = person.title
-        emailOfPerson.text = person.email
-        phoneOfPerson.text = person.phone
+        emailOfPerson.text = "email: \(person.email)"
+        phoneOfPerson.text = "phone: \(person.phone)"
 
     }
     
