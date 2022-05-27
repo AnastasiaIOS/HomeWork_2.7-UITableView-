@@ -52,7 +52,7 @@
 		5D603FF8283C3B040082C459 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
+				5DDFC0C42823254900BDC95C /* Person.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 		5DB592B72840354E0042D846 /* ServiceFile */ = {
 			isa = PBXGroup;
 			children = (
-				5DDFC0C42823254900BDC95C /* Person.swift */,
+				5DDFC0C2282322BC00BDC95C /* DataManager.swift */,
 			);
 			path = ServiceFile;
 			sourceTree = "<group>";
