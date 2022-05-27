@@ -15,6 +15,7 @@ struct Person {
         "\(name) \(surname)"
     }
 }
+
 extension Person {
     static func getPerson() -> [Person] {
         

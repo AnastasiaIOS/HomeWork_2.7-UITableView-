@@ -16,9 +16,6 @@ class PersonsListViewController: UITableViewController {
         super.viewDidLoad()
 
     }
-
-    // MARK: - Table view data source
-
    
     // метод, задающий кол-во ячеек в списке 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,7 +27,7 @@ class PersonsListViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "personID", for: indexPath)
         
         // настраиваем контент ячейки
-        var content = cell.defaultContentConfiguration()
+        var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
         
         content.text = personsList[indexPath.
    
