@@ -59,7 +59,7 @@
         <!--Details Of Contacts View Controller-->
         <scene sceneID="PcS-M2-Odr">
             <objects>
-                <viewController id="eJK-Rl-amc" customClass="DetailsOfContactsViewController" customModule="HomeWork_2_7_UITableView_" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="eJK-Rl-amc" customClass="DetailsOfContactsViewController" customModule="HomeWork_2_7_UITableView_" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hio-hg-G6m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -110,6 +110,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0hO-Se-kxt"/>
+                    <connections>
+                        <outlet property="emailOfPerson" destination="Eh7-DF-yoz" id="01V-uj-yz2"/>
+                        <outlet property="fullnamePersonLabel" destination="Kci-Pz-IyJ" id="Sno-wO-ZVN"/>
+                        <outlet property="phoneOfPerson" destination="zmv-Mx-bFJ" id="IVT-1X-pN3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UdR-n2-311" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
