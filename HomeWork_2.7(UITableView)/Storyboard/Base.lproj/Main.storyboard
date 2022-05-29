@@ -86,11 +86,11 @@
             </objects>
             <point key="canvasLocation" x="-2861" y="-569"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Persons List-->
         <scene sceneID="mKs-tw-ivC">
             <objects>
-                <tabBarController id="FZE-Is-aG4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="An2-Uo-opS"/>
+                <tabBarController title="Persons List" id="FZE-Is-aG4" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Persons List" id="An2-Uo-opS"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p0J-OZ-BLJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
