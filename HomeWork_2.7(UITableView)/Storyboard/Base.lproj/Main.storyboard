@@ -60,8 +60,8 @@
         <!--Contacts-->
         <scene sceneID="3M3-Ls-jay">
             <objects>
-                <tableViewController id="dcG-pa-4Uj" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wav-53-fLC">
+                <tableViewController id="dcG-pa-4Uj" customClass="SecondListOfPersons" customModule="HomeWork_2_7_UITableView_" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="wav-53-fLC" customClass="SE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -89,7 +89,7 @@
         <!--Persons List-->
         <scene sceneID="mKs-tw-ivC">
             <objects>
-                <tabBarController title="Persons List" id="FZE-Is-aG4" sceneMemberID="viewController">
+                <tabBarController title="Persons List" id="FZE-Is-aG4" customClass="StartScreenOfPersons" customModule="HomeWork_2_7_UITableView_" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" title="Persons List" id="An2-Uo-opS"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="p0J-OZ-BLJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
