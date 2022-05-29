@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DA9293528417D4100E574E2 /* DetailsOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */; };
 		5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */; };
-		5DA9293B28441D7000E574E2 /* SecondListOfPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293A28441D7000E574E2 /* SecondListOfPersons.swift */; };
+		5DA9293D28442AEC00E574E2 /* DetailsOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */; };
+		5DA9293F28442B8C00E574E2 /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */; };
 		5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */; };
 		5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */; };
 		5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDFC0B028231DDA00BDC95C /* SceneDelegate.swift */; };
@@ -21,9 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfContactsViewController.swift; sourceTree = "<group>"; };
 		5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenOfPersons.swift; sourceTree = SOURCE_ROOT; };
-		5DA9293A28441D7000E574E2 /* SecondListOfPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondListOfPersons.swift; sourceTree = "<group>"; };
+		5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsOfContactsViewController.swift; path = ../../../../DetailsOfContactsViewController.swift; sourceTree = "<group>"; };
+		5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
 		5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		5DDFC0AB28231DDA00BDC95C /* HomeWork_2.7(UITableView).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork_2.7(UITableView).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDFC0AE28231DDA00BDC95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		5D603FF7283C3AF50082C459 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */,
 				5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */,
 				5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */,
-				5DA9293A28441D7000E574E2 /* SecondListOfPersons.swift */,
-				5DA9293428417D4100E574E2 /* DetailsOfContactsViewController.swift */,
+				5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -202,12 +202,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
+				5DA9293D28442AEC00E574E2 /* DetailsOfContactsViewController.swift in Sources */,
 				5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
-				5DA9293B28441D7000E574E2 /* SecondListOfPersons.swift in Sources */,
-				5DA9293528417D4100E574E2 /* DetailsOfContactsViewController.swift in Sources */,
 				5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,
+				5DA9293F28442B8C00E574E2 /* SecondPersonsListTableViewController.swift in Sources */,
 				5DDFC0B128231DDA00BDC95C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

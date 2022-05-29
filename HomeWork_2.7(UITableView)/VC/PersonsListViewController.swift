@@ -34,9 +34,6 @@ class PersonsListViewController: UITableViewController {
         cell.contentConfiguration = content
         return cell
     }
-    
-
-   
 
     
     // MARK: - Navigation
@@ -47,7 +44,7 @@ class PersonsListViewController: UITableViewController {
         //обращаемся к супервью и запрашеваем индекс по которому тапает пользак
         guard let indexPath = tableView.indexPathForSelectedRow else {return}
         // извлекаем нужную модель из массива
-        let person = personsList[indexPath.row]
+        let person = persons[indexPath.row]
         // передаем экземпляр на второй экран
         detailsVC.person = person
         
