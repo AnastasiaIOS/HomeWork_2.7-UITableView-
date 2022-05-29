@@ -34,22 +34,7 @@ extension Person {
     }
 }
     
-    /*
-    func bla(persons: [Person])->Person{
-        Person(
-            name : randomString(list: <#T##[String]#>, string: <#T##String#>))
-    }
     
-    func randomString(list:[String]) ->String{
-        var isRandom = false
-        var result: list.randomElement()
-        while isRandom == true {
-            isRandom = list.contains(string)
-        }
-        return result
-    }
-}
-     */
                                      
                                      
                                      
