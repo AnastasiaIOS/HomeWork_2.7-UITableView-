@@ -10,7 +10,7 @@ import UIKit
 class PersonsListViewController: UITableViewController {
     
     
-    private var personsList = Person.getPerson() //создаем массив
+    var persons = Person.getPerson() //создаем массив
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class PersonsListViewController: UITableViewController {
    
     // метод, задающий кол-во ячеек в списке 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        personsList.count // кол-во строк в таблице
+        persons.count // кол-во строк в таблице
     }
 
     
@@ -28,7 +28,7 @@ class PersonsListViewController: UITableViewController {
         
         // настраиваем контент ячейки
         var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
-        let person = personsList[indexPath.row] // созд экземпляр модели по соответств.индексу
+        let person = persons[indexPath.row] // созд экземпляр модели по соответств.индексу
         content.text = person.title
    
         cell.contentConfiguration = content
