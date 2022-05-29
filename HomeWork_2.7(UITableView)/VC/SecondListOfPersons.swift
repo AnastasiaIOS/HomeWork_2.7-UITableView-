@@ -9,4 +9,6 @@ import UIKit
 
 class SecondListOfPersons: UITableViewController {
     
+    var persons = Person.getPerson()
+
 }
