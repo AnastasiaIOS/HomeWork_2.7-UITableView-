@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D954F8D28442FC6007A1A7B /* DetailsOfContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */; };
 		5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */; };
 		5DA9293D28442AEC00E574E2 /* DetailsOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */; };
 		5DA9293F28442B8C00E574E2 /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfContactsVC.swift; sourceTree = "<group>"; };
 		5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenOfPersons.swift; sourceTree = SOURCE_ROOT; };
 		5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsOfContactsViewController.swift; path = ../../../../DetailsOfContactsViewController.swift; sourceTree = "<group>"; };
 		5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				5DA9293C28442AEC00E574E2 /* DetailsOfContactsViewController.swift */,
+				5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */,
 				5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */,
 				5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */,
 				5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */,
@@ -204,6 +207,7 @@
 				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
 				5DA9293D28442AEC00E574E2 /* DetailsOfContactsViewController.swift in Sources */,
 				5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */,
+				5D954F8D28442FC6007A1A7B /* DetailsOfContactsVC.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
 				5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,
