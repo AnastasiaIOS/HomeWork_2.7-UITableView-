@@ -21,10 +21,10 @@ extension Person {
         
         var massiveOfPersons: [Person] = []
         
-        var massiveOfNames = groupMassive.names.shuffled()
-        var massiveOfSurnames = groupMassive.surnames.shuffled()
-        var massiveOfPhones = groupMassive.phones.shuffled()
-        var massiveOfEmails = groupMassive.emails.shuffled()
+        let massiveOfNames = groupMassive.names.shuffled()
+        let massiveOfSurnames = groupMassive.surnames.shuffled()
+        let massiveOfPhones = groupMassive.phones.shuffled()
+        let massiveOfEmails = groupMassive.emails.shuffled()
         
         let numberOfPersons = min(massiveOfNames.count, massiveOfSurnames.count, massiveOfPhones.count, massiveOfEmails.count)
         
