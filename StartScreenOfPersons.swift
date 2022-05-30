@@ -13,12 +13,11 @@ class StartScreenOfPersons: UITabBarController {
         goToViewControllers()
     }
     
-    func goToViewControllers() {
+  private func goToViewControllers() {
         let persons = Person.getPerson()
-        let personsListVC = viewControllers?.first as! PersonsListViewController
-        let secondListVC = viewControllers?.last as! SecondPersonsListTableViewController
-        
-        
+      let personsListVC = viewControllers?.first as! PersonsListViewController
+      let secondListVC = viewControllers?.last as! SecondPersonsListTableViewController
+
         personsListVC.persons = persons
         secondListVC.persons = persons
     }

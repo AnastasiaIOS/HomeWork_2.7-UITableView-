@@ -20,15 +20,15 @@ class SecondPersonsListTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        2
+        persons.count
         
-    }
-
+    }}
+    /*
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count * 2
     }
 
-    
+    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactsID", for: indexPath)
 
@@ -40,7 +40,7 @@ class SecondPersonsListTableViewController: UITableViewController {
         cell.contentConfiguration = content
        
         return cell
-    }
+    }*/
     
 
     /*
@@ -88,4 +88,4 @@ class SecondPersonsListTableViewController: UITableViewController {
     }
     */
 
-}
+     }*/
