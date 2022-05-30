@@ -25,4 +25,4 @@ class StartScreenOfPersons: UITabBarController {
 }
 
 
-    .,.,.,
+   
