@@ -9,7 +9,7 @@ import UIKit
 
 class SecondPersonsListTableViewController: UITableViewController {
     
-    var persons = Person.getPerson()
+     var persons = Person.getPerson() // список
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,25 +22,34 @@ class SecondPersonsListTableViewController: UITableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         persons.count
         
-    }}
-    /*
+    }
+    
+
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        persons.count * 2
+        2
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactsID", for: indexPath)
 
         // настраиваем контент ячейки
         var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
-        let person = persons[indexPath.row] // созд экземпляр модели по соответств.индексу
+        let person = persons[indexPath.section] // созд экземпляр модели по соответств.индексу
         content.text = person.phone
    
         cell.contentConfiguration = content
        
         return cell
-    }*/
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        
+        let person = persons[section]
+        return "\(person.title)"
+        
+    }
     
 
     /*
@@ -78,14 +87,5 @@ class SecondPersonsListTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-     }*/
+    
+}
