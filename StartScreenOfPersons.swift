@@ -10,6 +10,7 @@ import UIKit
 class StartScreenOfPersons: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        goToViewControllers()
     }
     
     func goToViewControllers() {
@@ -19,7 +20,7 @@ class StartScreenOfPersons: UITabBarController {
         
         
         personsListVC.persons = persons
-        
+        secondListVC.persons = persons
     }
 }
 
