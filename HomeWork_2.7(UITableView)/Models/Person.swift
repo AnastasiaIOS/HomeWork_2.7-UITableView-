@@ -26,11 +26,13 @@ extension Person {
         var massiveOfPhones = groupMassive.phones.shuffled()
         var massiveOfEmails = groupMassive.emails.shuffled()
         
-        for _ in 1...numberOfPersons {
-            var person = Person(name: groupMassive.names.randomElement() ?? "",
-                                surname: groupMassive.surnames.randomElement() ?? "",
-                                phone: groupMassive.phones.randomElement() ?? "",
-                                email: groupMassive.emails.randomElement() ?? "")
+        let numberOfPersons = min(massiveOfNames.count, massiveOfSurnames.count, massiveOfPhones.count, massiveOfEmails.count)
+        
+        for number in 1...numberOfPersons {
+            let person = Person(name: massiveOfNames[number - 1] ,
+                                surname: massiveOfSurnames[number - 1],
+                                phone: massiveOfPhones[number - 1],
+                                email: massiveOfEmails[number - 1])
             
             massiveOfPersons.append (person)
                                      
