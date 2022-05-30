@@ -21,6 +21,11 @@ extension Person {
         
         var massiveOfPersons: [Person] = []
         
+        var massiveOfNames = groupMassive.names.shuffled()
+        var massiveOfSurnames = groupMassive.surnames.shuffled()
+        var massiveOfPhones = groupMassive.phones.shuffled()
+        var massiveOfEmails = groupMassive.emails.shuffled()
+        
         for _ in 1...numberOfPersons {
             var person = Person(name: groupMassive.names.randomElement() ?? "",
                                 surname: groupMassive.surnames.randomElement() ?? "",
