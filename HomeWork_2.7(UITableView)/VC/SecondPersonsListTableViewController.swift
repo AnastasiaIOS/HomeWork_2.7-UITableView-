@@ -37,8 +37,14 @@ class SecondPersonsListTableViewController: UITableViewController {
         // настраиваем контент ячейки
         var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
         let person = persons[indexPath.section] // созд экземпляр модели по соответств.индексу
-        content.text = person.phone
-   
+        
+        switch indexPath.row {
+        case 0:
+            content.text = person.phone
+        default:
+            content.text = person.email
+        }
+        
         cell.contentConfiguration = content
        
         return cell
@@ -48,10 +54,9 @@ class SecondPersonsListTableViewController: UITableViewController {
         
         let person = persons[section]
         return "\(person.title)"
-        
     }
     
-
+    
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
