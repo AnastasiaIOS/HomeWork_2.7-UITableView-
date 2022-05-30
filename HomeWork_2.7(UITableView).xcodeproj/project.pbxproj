@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5D0938BA28452F4A00EF3369 /* DetailsOfContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0938B928452F4A00EF3369 /* DetailsOfContactsViewController.swift */; };
-		5D954F8D28442FC6007A1A7B /* DetailsOfContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */; };
 		5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */; };
 		5DA9293F28442B8C00E574E2 /* SecondPersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */; };
 		5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */; };
@@ -23,7 +22,6 @@
 
 /* Begin PBXFileReference section */
 		5D0938B928452F4A00EF3369 /* DetailsOfContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsOfContactsViewController.swift; sourceTree = SOURCE_ROOT; };
-		5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsOfContactsVC.swift; sourceTree = "<group>"; };
 		5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenOfPersons.swift; sourceTree = SOURCE_ROOT; };
 		5DA9293E28442B8C00E574E2 /* SecondPersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPersonsListTableViewController.swift; sourceTree = "<group>"; };
 		5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 		5D603FF7283C3AF50082C459 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				5D954F8C28442FC6007A1A7B /* DetailsOfContactsVC.swift */,
 				5D0938B928452F4A00EF3369 /* DetailsOfContactsViewController.swift */,
 				5DA9293828441A2B00E574E2 /* StartScreenOfPersons.swift */,
 				5DAE74CE283ED55B002DA505 /* PersonsListViewController.swift */,
@@ -206,7 +203,6 @@
 			files = (
 				5DDFC0C52823254900BDC95C /* Person.swift in Sources */,
 				5DAE74CF283ED55B002DA505 /* PersonsListViewController.swift in Sources */,
-				5D954F8D28442FC6007A1A7B /* DetailsOfContactsVC.swift in Sources */,
 				5DDFC0C3282322BC00BDC95C /* DataManager.swift in Sources */,
 				5DA9293928441A2B00E574E2 /* StartScreenOfPersons.swift in Sources */,
 				5DDFC0AF28231DDA00BDC95C /* AppDelegate.swift in Sources */,

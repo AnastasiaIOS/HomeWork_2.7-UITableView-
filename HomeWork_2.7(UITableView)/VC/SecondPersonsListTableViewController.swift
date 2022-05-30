@@ -25,19 +25,23 @@ class SecondPersonsListTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incmplete implementation, return the number of rows
-        return 0
+        persons.count * 2
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "contactsID", for: indexPath)
 
-        // Configure the cell...
-
+        // настраиваем контент ячейки
+        var content = cell.defaultContentConfiguration() // экземпляр структуры, через этот объект                                                           настраиваем контент
+        let person = persons[indexPath.row] // созд экземпляр модели по соответств.индексу
+        content.text = person.phone
+   
+        cell.contentConfiguration = content
+       
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

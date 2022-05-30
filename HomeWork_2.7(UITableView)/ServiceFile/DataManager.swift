@@ -17,7 +17,6 @@ class DataManager {
 }
 
 let groupMassive = DataManager()
-let numberOfPersons = groupMassive.names.count
 
 
 
